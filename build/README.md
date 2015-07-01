@@ -1,21 +1,20 @@
-# Build
+# Builds and History
 
-After you [pushed content using **git** or the **editor**](./push.md), GitBook will start different builds:
+After you pushed content using [**git** or the **editor**](./push.md), GitBook.com will start different builds:
 
 - **website**: it will generate the website
 - **json**: it will extract metadata about the book (summary, introduction, etc)
 - **epub**: it will generate the epub download
 - **pdf**: it will generate the pdf download
 
-### List builds
+These builds are listed and detailed on the **History** tab of your book.
 
-The **History** tab on your book let you follow the evolution of your builds.
+### Builds not triggered
 
-### Details for a build
+If your book is linked to GitHub, it may happen that GitHub doesn't signal changes to GitBook (for example: if authorizations are reset).
+Information on how to fix this issue is available on the [GitHub integration section](github/README.md).
 
-When clicking the button associated with a build, you can access a detailed page for it. This page will let you see the output of the build process.
-
-### Fixing errors
+### Fixing build errors
 
 If your build failed, you can use the logs to debug the issue and publish a fixed content.
 
