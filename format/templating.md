@@ -29,6 +29,8 @@ Variables are defined in the `book.json` file:
 
 #### Display Variables
 
+Variables specified in the `book.json` are accessible under the scope `book`:
+
 ```
 {{ book.myVariable }}
 ```
