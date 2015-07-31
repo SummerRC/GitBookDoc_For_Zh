@@ -12,7 +12,7 @@ These builds are listed and detailed on the **History** tab of your book.
 ### Builds not triggered
 
 If your book is linked to GitHub, it may happen that GitHub doesn't signal changes to GitBook (for example: if authorizations are reset).
-Information on how to fix this issue is available on the [GitHub integration section](github/README.md).
+Information on how to fix this issue is available on the [GitHub integration section](../github/README.md).
 
 ### Fixing build errors
 
