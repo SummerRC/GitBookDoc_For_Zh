@@ -24,7 +24,7 @@ To avoid having to enter your password on each new push, you can add your GitBoo
 
 ```
 machine git.gitbook.com
-  login USERNAME
+  login USERNAME-or-EMAIL
   password API-TOKEN-or-PASSWORD
 ```
 
