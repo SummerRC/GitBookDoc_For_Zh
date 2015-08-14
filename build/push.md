@@ -18,6 +18,18 @@ https://git.gitbook.com/{{UserName}}/{{Book}}.git
 
 The git server is using your basic GitBook login to authenticate you. When prompted enter your GitBook username and your password (you can also use your API token).
 
+### Saving your credentials
+
+To avoid having to enter your password on each new push, you can add your GitBook credentials to your `~/.netrc` file. Create or append to an existing `~/.netrc` file something like below:
+
+```
+machine git.gitbook.com
+  login USERNAME
+  password API-TOKEN-or-PASSWORD
+```
+
+We recommend using your **API TOKEN** for security reasons, you can find it [in your settings under "API"](https://www.gitbook.com/settings#api)
+
 ### Create a new repository on the command line
 
 ```
