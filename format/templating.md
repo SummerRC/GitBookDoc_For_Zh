@@ -103,7 +103,7 @@ Let's consider your variables in the `book.json`:
 # Authors
 
 
-{% for author in authors %}
+{% for author in book.authors %}
   - {{ author.name }}
 {% endfor %}
 ```
