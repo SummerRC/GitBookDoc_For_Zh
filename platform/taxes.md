@@ -1,12 +1,18 @@
 # Taxes
 
-Keep in mind the following is not specific tax advice. You should always report in accordance with applicable tax laws. We will send any required tax forms to you, but if you have additional questions on how to file or that are specific to your tax situation, we highly recommend consulting a tax professional in good standing with the IRS.
+Keep in mind the following is not specific tax advice. You should always report in accordance with applicable tax laws.
+
+We do not withhold any taxes and authors are entirely responsible for their own tax obligations.
+
+We will send any required tax forms to US-based authors, but if you have additional questions on how to file or that are specific to your tax situation, we highly recommend consulting a tax professional in good standing with the IRS.
 
 ### What informations should I provide to GitBook?
 
 Fill out all the fields in [Payout settings](https://www.gitbook.com/settings/recipient).
 
 ### What tax documents should I expect from GitBook?
+
+This only applies to authors based in the United States.
 
 It depends on several factors, but here's a quick breakdown:
 * Authors who sold at least 200 books and earn at least $20,000 in royalties earnings in the last year will receive a Form **1099-K**.
