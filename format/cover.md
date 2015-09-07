@@ -6,10 +6,10 @@ A cover is specified by a **cover.jpg** file, a **cover_small.jpg** can also exi
 
 ### Best Sizes
 
-|  | Big | Small |
-| -- | -- | -- |
-| **File** | `cover.jpg` | `cover_small.jpg` |
-| **Size(in pixels)** | 1800x2360 | 200x262 |
+|                     |     Big     |       Small       |
+|:-------------------:|:-----------:|:-----------------:|
+|       **File**      | `cover.jpg` | `cover_small.jpg` |
+| **Size(in pixels)** |  1800x2360  |      200x262      |
 
 ### Guidelines
 
