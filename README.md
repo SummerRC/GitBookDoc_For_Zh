@@ -17,7 +17,7 @@ GitBook.com is the online platform ([www.gitbook.com](https://www.gitbook.com)) 
 
 ### Other documentations
 
-Documentation for developers (API & Plugins) is accessible at [developer.gitbook.com](http://developer.gitbook.com).
+Documentation for developers (API & Plugins) is accessible at [developer.gitbook.com](https://developer.gitbook.com).
 
 Setup guide and documentation for the enterprise version is accessible at [help.enterprise.gitbook.com](http://help.enterprise.gitbook.com).
 
