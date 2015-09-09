@@ -13,6 +13,12 @@ In your [account settings](https://www.gitbook.com/settings), connect your GitHu
 - **Access to public repositories**: access your GitHub repository from the webeditor so that you can edit your book easily from GitBook (only public repositories)
 - **Access to private repositories**: same as above but with access to private repositories
 
+## Import a book from GitHub
+
+When creating a new book, the `GitHub` tab let you choose one of your GitHub repository to import.
+
+The newly created book will be setup with your repository's content, and a webhook will be automatically added.
+
 ## Webhooks
 
 Webhooks notify GitBook when your GitHub repository changes.
@@ -42,6 +48,6 @@ You can now edit your GitHub repository from the web editor (if you have authori
 If you linked your GitHub repository to a GitBook but editing content doesn't trigger any build.
 Verify that the webhook has been correctly added to your GitHub repository (in your GitHub repository settings -> Webhook). If the webhook is not present or invalid, add it back from your book's settings.
 
-##### Change of book owner
+##### Change of book name/owner
 
 If you transferred your book to a new owner, the webhook is now invalid, you need to add it back.
