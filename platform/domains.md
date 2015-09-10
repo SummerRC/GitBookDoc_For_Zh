@@ -12,7 +12,7 @@ In order to use your own domain, you will need to make a few changes with your d
 
 1. Log in to your domain registrar and find the section that allows you to add/edit host records, often found in a settings menu called 'Edit DNS', 'Host Records' or 'Zone File Control'.
 
-2. Set the www record to a CNAME and set the URL field to: ```gitbooks.io```.
+2. Set the www record to a CNAME and set the URL field to: ```www.gitbooks.io```.
 
 3. To redirect the naked domain (`yourdomain.com`) to `www.yourdomain.com`, find the option to forward your domain. This can usually be found under 'Forwarding', 'URL Forwarding' or 'URL Redirect'.
 
