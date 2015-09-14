@@ -15,6 +15,7 @@
    * [Ignoring files & folders](format/ignore.md)
    * [Configuration](format/configuration.md)
    * [Plugins](format/plugins.md)
+   * Math & TeX
 * [Build](build/README.md)
    * [Update with GIT](build/push.md)
    * [Common Errors](build/errors.md)
