@@ -1,6 +1,6 @@
 # Math & TeX
 
-GitBook supports math and TeX thanks to plugins. There are currently 2 official plugins to display math: [mathjax](https://github.com/GitbookIO/plugin-mathjax) and [katex](https://github.com/GitbookIO/plugin-katex).
+GitBook supports math equations and TeX thanks to plugins. There are currently 2 official plugins to display math: [mathjax](https://github.com/GitbookIO/plugin-mathjax) and [katex](https://github.com/GitbookIO/plugin-katex).
 
 #### Enable a math plugin:
 
