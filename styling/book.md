@@ -16,11 +16,11 @@ These paths can be changed in the `book.json` configuration, for example to use 
 ```json
 {
     "styles": {
-        "website": "website.css",
-        "ebook": "ebook.css",
-        "pdf": "pdf.css",
-        "mobi": "mobi.css",
-        "epub": "epub.css"
+        "website": "styles/website.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "styles/mobi.css",
+        "epub": "styles/epub.css"
     }
 }
 ```
