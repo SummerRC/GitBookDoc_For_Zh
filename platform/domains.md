@@ -8,7 +8,9 @@ Adding a custom domain is easy.
 
 ### On GitBook.com
 
-1. Add your domain name in your book's settings.
+Go to your book's **Settings** tab and then click on **Domains**. Then simply enter your domain and save.
+
+![Add domain in settings](./assets/add_domain.jpg)
 
 ### With your domain registrar
 
