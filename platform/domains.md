@@ -10,7 +10,7 @@ Adding a custom domain is easy.
 
 Go to your book's **Settings** tab and then click on **Domains**. Then simply enter your domain and save.
 
-![Add domain in settings](./assets/add_domain.jpg)
+![Add domain in settings](../assets/add_domain.jpg)
 
 ### With your domain registrar
 
