@@ -6,7 +6,11 @@ But you can configure your book to use a custom domain name (a free feature on G
 
 Adding a custom domain is easy.
 
+### On GitBook.com
+
 1. Add your domain name in your book settings.
+
+### With your domain registrar
 
 To finish the setup you will need to make a few changes with your domain registrar:
 
