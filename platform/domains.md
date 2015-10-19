@@ -8,7 +8,7 @@ Adding a custom domain is easy.
 
 ### On GitBook.com
 
-1. Add your domain name in your book settings.
+1. Add your domain name in your book's settings.
 
 ### With your domain registrar
 
