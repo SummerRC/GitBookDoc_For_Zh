@@ -12,7 +12,7 @@ All fields are optionals or default to some extracted values.
 #### gitbook
 
 ```js
-{ "gitbook": ">=2.0.0" }
+{ "gitbook": "2.x.x" }
 ```
 
 This option is used to detect which version of GitBook will be use to generate the book.
