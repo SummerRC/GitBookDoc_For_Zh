@@ -8,10 +8,12 @@ Some books hosted on GitHub prefer to keep the README.md as a project introducti
 
 Since GitBook `>2.0.0`, it's possible to define which file to use as a README in the `book.json`:
 
-```
+```js
 {
     "structure": {
         "readme": "myIntro.md"
     }
 }
 ```
+
+**Caution:** the introduction file should be in the root directory of your book.
