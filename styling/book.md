@@ -24,3 +24,11 @@ These paths can be changed in the `book.json` configuration, for example to use 
     }
 }
 ```
+
+#### Using a CSS pre-processor
+
+Some plugins make it easy to use a CSS pre-processor:
+
+- [styles-less](https://plugins.gitbook.com/plugin/styles-less)
+- [styles-sass](https://plugins.gitbook.com/plugin/styles-sass)
+
