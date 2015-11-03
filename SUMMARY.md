@@ -15,7 +15,7 @@
    * [Ignoring files & folders](format/ignore.md)
    * [Configuration](format/configuration.md)
    * [Plugins](format/plugins.md)
-   * [Book](styling/book.md)
+   * [Styling](styling/book.md)
    * [Math & TeX](format/math.md)
 * [Build](build/README.md)
    * [Update with GIT](build/push.md)
