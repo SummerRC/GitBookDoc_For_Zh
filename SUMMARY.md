@@ -23,8 +23,6 @@
    * [ebook-convert](build/ebookconvert.md)
 * [GitHub Integration](github/README.md)
    * [Transferring content to GitHub](github/transferring_to_github.md)
-* [Styling](styling/README.md)
-   * [Homepage](styling/homepage.md)
 * [Editor](editor/README.md)
    * [Draft Workflow](editor/draft.md)
    * [Chapters](editor/chapters.md)
