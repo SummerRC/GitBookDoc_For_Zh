@@ -16,6 +16,7 @@
    * [Configuration](format/configuration.md)
    * [Plugins](format/plugins.md)
    * [Math & TeX](format/math.md)
+* [Book](styling/book.md)
 * [Build](build/README.md)
    * [Update with GIT](build/push.md)
    * [Common Errors](build/errors.md)
