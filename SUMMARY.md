@@ -30,7 +30,6 @@
 * [Taxes](platform/taxes.md)
 * [Visibility](platform/visibility.md)
 * [Custom Domains](platform/domains.md)
-* [Mailing](platform/mailing.md)
 * [Account](account/README.md)
    * [Duplicate](account/duplicate.md)
 * [Organizations](platform/organizations/README.md)
