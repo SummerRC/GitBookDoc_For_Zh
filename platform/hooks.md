@@ -8,5 +8,8 @@ You'll need access to an external server and a familiarity with technical proced
 
 ### Configure a new webhook
 
+You can configure webhooks directly in your book settings:
+
+![Configure webhooks](../assets/webhooks.png)
 
 
