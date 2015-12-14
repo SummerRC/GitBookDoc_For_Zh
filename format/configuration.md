@@ -136,4 +136,15 @@ Structure types are `readme`, `langs`, `summary` and `glossary`.
 
 This option defines the variables values being used in [templating](./templating.md).
 
+#### pdf
 
+PDF specific options allow customization of header, footer, etc
+
+```js
+{
+    "pdf": {
+        "headerTemplate": "Header of the PDF with _TITLE_",
+        "footerTemplate": "Footer HTML template. Available variables: _PAGENUM_, _TITLE_, _AUTHOR_ and _SECTION_."
+    }
+}
+```
