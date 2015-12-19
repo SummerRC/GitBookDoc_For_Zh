@@ -1,30 +1,30 @@
-GitBook Documentation
+GitBook 文档
 =============
 
-This book contains the entire documentation for **GitBook** (gitbook.com and format).
+这本书包含整个[GitBook](www.gitbook.com)的文档(包括[GitBook官网](www.gitbook.com)以及GitBook支持的所有格式)。
 
-### Open Source Format
+### 开源文件格式
 
-The toolchain (GitBook) is a tool for building beautiful books using Git and Markdown. It can generate your book in many formats: **PDF**, **ePub**, **mobi** or as a **website**.
+GitBook是一个用Git和Markdown构建美丽书籍的工具，它可以将你的书籍生成多种格式: **PDF** 、**ePub**、**mobi** 、 **website**。
 
-It is open source, the source code of the tool is available on [GitHub](https://github.com/GitbookIO/gitbook).
+GitBook是开源的，源码可以在这里查看：[GitHub](https://github.com/GitbookIO/gitbook).
 
-Issues and question related to the format and the toolchain should be posted on [GitHub](https://github.com/GitbookIO/gitbook/issues)
+任何与GitBook及其所支持格式的相关问题可以提交到这里：[GitHub](https://github.com/GitbookIO/gitbook/issues)
 
-### GitBook.com
+### GitBook官网
 
-GitBook.com is the online platform ([www.gitbook.com](https://www.gitbook.com)) to create and host books built using the GitBook format.
+[gitbook.com](https://www.gitbook.com)是一个在线创建和发布GitBook格式书籍的平台。
 
-### Other documentations
+### 其他文档
 
-Documentation for developers (API & Plugins) is accessible at [developer.gitbook.com](https://developer.gitbook.com).
+GitBook开发者文档（API和插件）可以在这里查看：[developer.gitbook.com](https://developer.gitbook.com)
 
-Setup guide and documentation for the enterprise version is accessible at [help.enterprise.gitbook.com](http://help.enterprise.gitbook.com).
+企业版的安装和使用文档可以在这里查看：[help.enterprise.gitbook.com](http://help.enterprise.gitbook.com)
 
-### Help and Support
+### 帮助和支持
 
-We're always happy to help out with your books or any other questions you might have. You can ask a question or signal an issue on the following contact form at [gitbook.com/contact](https://www.gitbook.com/contact).
+我们很乐于帮助你解决在使用过程中遇到的任何问题。你可以通过访问以下网站提交你所遇到的问题：[gitbook.com/contact](https://www.gitbook.com/contact)
 
-### Contribute to this documentation
+### 提交贡献给这份文档
 
-You can contribute to improve this documentation on [GitHub](https://github.com/GitbookIO/documentation) by signaling issues or proposing changes.
+你可以在[GitHub](https://github.com/GitbookIO/documentation)上提交issues或者changes来提高完善这份文档。
