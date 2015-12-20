@@ -1,12 +1,12 @@
-# Readme and Introduction
+# 说明和介绍
 
-书籍的第一页展示`README.md`文件的内容.中The first page of your book is extracted from the `README.md`. If the file is not present in the `SUMMARY`, it will be added as a first entry.
+书籍的第一页展示`README.md`文件的内容. If the file is not present in the `SUMMARY`, it will be added as a first entry.
 
-### Use another file than README.md
+### 使用其他文件替代 README.md
 
-Some books hosted on GitHub prefer to keep the README.md as a project introduction instead of a book introduction.
+有些托管在GitHub上的书籍更喜欢保持 README.md 作为项目的介绍而不是书籍的介绍 .
 
-Since GitBook `>2.0.0`, it's possible to define which file to use as a README in the `book.json`:
+从 GitBook `2.0.0` 之后的版本开始, 我们可以在 `book.json` 文件中定义任意文件来作为书籍的介绍文件代替 README.md :
 
 ```js
 {
@@ -16,4 +16,4 @@ Since GitBook `>2.0.0`, it's possible to define which file to use as a README in
 }
 ```
 
-**Caution:** the introduction file should be in the root directory of your book.
+**注意:** 介绍文件应该在你书籍的根目录下.
