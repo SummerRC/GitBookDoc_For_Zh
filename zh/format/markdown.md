@@ -1,11 +1,11 @@
 # Markdown
 
-GitBook uses the Markdown syntax by default.
+GitBook 默认使用 Markdown 的语法 .
 
-This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/) and the [Github-flavored Markdown info page](http://github.github.com/github-flavored-markdown/).
+这是作为一个快速的参考和展示 . 更多详细信息见 [John Gruber's original spec](http://daringfireball.net/projects/markdown/) 和 [Github-flavored Markdown info page](http://github.github.com/github-flavored-markdown/) .
 
 
-## Headers
+## 标题
 
 ```markdown
 # H1
@@ -16,7 +16,7 @@ This is intended as a quick reference and showcase. For more complete info, see 
 ###### H6
 ```
 
-Alternatively, for H1 and H2, an underline-ish style:
+另外，对一级标题和二级标题，下划线的样式：
 
 ```markdown
 Alt-H1
@@ -26,66 +26,65 @@ Alt-H2
 ------
 ```
 
-## Paragraphs and Line Breaks
+## 段落和换行符
 
-A paragraph is simply one or more consecutive lines of text, separated by one or more blank lines. (A blank line is any line that looks like a blank line — a line containing nothing but spaces or tabs is considered blank.) Normal paragraphs should not be indented with spaces or tabs.
-
+一个段落是一个或多个连续的文本行，由一个或多个空白行分隔。 (这些空白行都视为一个空白行 —— 一行只包括空格或者制表符被认为是空白的 .) 正常的段落不应留有空格或制表符 .
 
 ```markdown
-Here's a line for us to start with.
+从这里开始一行.
 
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
+这一行从上面开始被两个换行分开, 因此它是一个 *单独的段落*.
 
-This line is also a separate paragraph, but...
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+这一行也是一个单独的段落, 但是...
+这一行只被一个单独的换行分开，因此它时 *同一段落* 的新一行 .
 ```
 
 
-## Emphasis
+## 强调
 
 ```markdown
-Emphasis, aka italics, with *asterisks* or _underscores_.
+强调, 又名斜体, 用 *星号* 或者 _下划线_ .
 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
+特别强调, 又称加粗, 用 **两个星号** 或者 __两个下划线__ .
 
-Combined emphasis with **asterisks and _underscores_**.
+两者结合可以用 **两个星号 和 _一个下划线_** .
 
-Strikethrough uses two tildes. ~~Scratch this.~~
+删除线使用两个 `~` 符号. ~~删除这个~~
 ```
 
-## Lists
+## 列表
 
-(In this example, leading and trailing spaces are shown with with dots: ⋅)
+(在这个例子中，首尾空格用点表示: ⋅)
 
 ```markdown
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
+1. 列表第一项
+2. 另一项
+⋅⋅* 无序子列表
+1. 实际数字并不重要,只是一个编号
+⋅⋅1. 有序子列表
+4. 另一项
 
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+⋅⋅⋅你可以在列表项中适当缩进段落 . 注意上面的空行和空格 (至少有一个空行，但我们也可以在这里使用三个点达到同样的效果) .
 
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+⋅⋅⋅新起一行而不新起一段, 你需要在上一行后面空两格然后回车 .⋅⋅
+⋅⋅⋅注意这一行是新起的一行，但是和上一行在相同段落里 .⋅⋅
+⋅⋅⋅(这与典型的 GFM 换行符不同， 它的行后面不需要两个空格 .)
 
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
+* 无序列表可以使用星号
+- 或者减号
++ 或者加号
 ```
 
-## Links
+## 链接
 
-There are two ways to create links.
+有两种方式创建链接 .
 
 ```markdown
-[I'm an inline-style link](https://www.google.com)
+[我是一个行内式的链接](https://www.google.com)
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+[我是一个有标题的行内式的链接](https://www.google.com "Google's Homepage")
 
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
+[我是一个参考式的链接][任意的不区分大小写的参考文本]
 
 [I'm a relative reference to a repository file](../blob/master/LICENSE)
 
