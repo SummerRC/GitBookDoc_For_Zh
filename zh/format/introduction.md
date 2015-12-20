@@ -1,6 +1,6 @@
 # Readme and Introduction
 
-The first page of your book is extracted from the `README.md`. If the file is not present in the `SUMMARY`, it will be added as a first entry.
+书籍的第一页展示`README.md`文件的内容.中The first page of your book is extracted from the `README.md`. If the file is not present in the `SUMMARY`, it will be added as a first entry.
 
 ### Use another file than README.md
 
