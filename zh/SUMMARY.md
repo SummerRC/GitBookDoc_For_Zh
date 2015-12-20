@@ -4,7 +4,7 @@
 * [格式](format/README.md)
    * [输出](format/output.md)
    * [说明和介绍](format/introduction.md)
-   * [Chapters and Subchapters](format/chapters.md)
+   * [章节](format/chapters.md)
    * [Markdown](format/markdown.md)
    * [AsciiDoc](format/asciidoc.md)
    * [Cover](format/cover.md)

@@ -1,25 +1,25 @@
-# Chapters and Subchapters
+# 章节
 
-GitBook uses a `SUMMARY.md` file to define the structure of chapters and subchapters of the book. The `SUMMARY.md` file is  used to generate the book's table of contents.
+GitBook 使用一个 `SUMMARY.md` 文件来定义书籍的章节结构 .  `SUMMARY.md` 文件通常用于生成书籍的目录表 .
 
-The `SUMMARY.md`'s format is simply a list of links, the name of the link is used as the chapter's name, and the target is a path to that chapter's file.
+文件 `SUMMARY.md` 的格式是一个简单的链接列表，链接的名称用作该章的名称，链接的目标是该章对应的文件的路径 .
 
-Subchapters are defined simply by adding a nested list to a parent chapter.
+通过向章添加简单的嵌套表定义每章小节的结构 .
 
-### Simple example
-
-```
-# Summary
-
-* [Chapter 1](chapter1.md)
-* [Chapter 2](chapter2.md)
-* [Chapter 3](chapter3.md)
-```
-
-### Example with subchapters split into *parts*
+### 简例
 
 ```
-# Summary
+# 章节结构
+
+* [chapter 1](chapter1.md)
+* [chapter 2](chapter2.md)
+* [chapter 3](chapter3.md)
+```
+
+### 节分为不同部分的例子
+
+```
+# 章节结构
 
 * [Part I](part1/README.md)
     * [Writing is nice](part1/writing.md)
