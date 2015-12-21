@@ -86,28 +86,28 @@ Alt-H2
 
 [我是一个参考式的链接][任意的不区分大小写的参考文本]
 
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
+[我是一个指向仓库参考文件的引用](../blob/master/LICENSE)
 
-[You can use numbers for reference-style link definitions][1]
+[你可以使用数字定义的参考式链接][1]
 
-Or leave it empty and use the [link text itself]
+或者创建一个无参考文本的链接（即只有[]没有()的链接），像这样 [链接文本自身充当参考]
 
-Some text to show that the reference links can follow later.
+后文会展示一些参考链接 .
 
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[任意的不区分大小写的参考文本]: https://www.mozilla.org
 [1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
+[链接文本自身充当参考]: http://www.reddit.com
 ```
 
-## Footnotes
-The default footnote-style links that Markdown uses do not display on the page. Sometimes it is useful to include a non-hyperlink footnote that will be visible to the reader. GitBook supports a simple syntax for such footnotes.
+## 脚注
+Markdown默认使用的脚注链接并不会显示在页面上. 有时我们需要使用不包含超链接的脚注显示给读者. 针对无超链接的脚注，GitBook 提供像下面这样的简单的语法支持.
 
 ```markdown
 Text prior to footnote reference.[^2]
 [^2] Comment to include in footnote.
 ```
 
-## Images
+## 图片
 
 ```markdown
 Here's our logo (hover to see the title text):
@@ -147,7 +147,7 @@ But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
 ```
 </code></pre>
 
-## Tables
+## 表格
 
 Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
 
@@ -168,7 +168,7 @@ Markdown | Less | Pretty
 1 | 2 | 3
 ```
 
-## Blockquotes
+## 代码块
 
 ```markdown
 > Blockquotes are very handy in email to emulate reply text.
@@ -179,7 +179,7 @@ Quote break.
 > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 ```
 
-## Inline HTML
+## 插入 HTML
 
 You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 
