@@ -1,20 +1,20 @@
 # AsciiDoc
 
-Since version `2.0.0`, GitBook can also accept AsciiDoc as an input format.
+从版本 `2.0.0` 开始, GitBook 也可以接受 AsciiDoc 作为一种输入格式.
 
-Please refer to the [AsciiDoc Syntax Quick Reference](http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/) for more informations about the format.
+请查阅 [AsciiDoc 语法快速指南](http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/) 查看更多信息.
 
-Just like for markdown, GitBook is using some special files to extract structures: `README.adoc`, `SUMMARY.adoc`, `LANGS.adoc` and `GLOSSARY.adoc`.
+像 Markdown一样, GitBook 也在使用一些特殊的文件来组织结构: `README.adoc`, `SUMMARY.adoc`, `LANGS.adoc` and `GLOSSARY.adoc`.
 
 ### README.adoc
 
-This is the main entry of your book: the introduction. This file is **non optional**.
+这是一本书的入口: 简介. 书籍入口文件必须是 `README.adoc`.
 
 ### SUMMARY.adoc
 
-This file defines the list of chapters and subchapters. Just like [for markdown](./chapters.md), the `SUMMARY.adoc`'s format is simply a list of links, the name of the link is used as the chapter's name, and the target is a path to that chapter's file.
+这个文件定义书籍的章节. 就像 [for markdown](./chapters.md), `SUMMARY.adoc` 文件的格式是一个简单的链接列表, 链接名用于章的名字, 链接目标指向该章文件所在的路径.
 
-Subchapters are defined simply by adding a nested list to a parent chapter.
+节的定义通向父章添加列表实现.
 
 ```
 = Summary
@@ -32,9 +32,9 @@ Subchapters are defined simply by adding a nested list to a parent chapter.
 
 ### LANGS.adoc
 
-For [Multi-Languages](./languages.md) books, this file is used to define the different supported languages and translations.
+针对 [多种语言的](./languages.md) 书籍, 这个文件可以用来定义书籍支持的不同语言和翻译.
 
-This file is following the same syntax as the `SUMMARY.adoc`:
+这个文件的语法跟 `SUMMARY.adoc` 类似:
 
 ```
 = Languages
@@ -45,10 +45,10 @@ This file is following the same syntax as the `SUMMARY.adoc`:
 
 ### GLOSSARY.adoc
 
-This file is used to define terms. [See the glossary section](./glossary.md).
+这个文件是用于定义术语. [见术语一章](./glossary.md).
 
 ```
-= Glossary
+= 术语表
 
 == Magic
 Sufficiently advanced technology, beyond the understanding of the observer producing a sense of wonder.
