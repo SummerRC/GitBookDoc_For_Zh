@@ -110,57 +110,57 @@ Text prior to footnote reference.[^2]
 ## 图片
 
 ```markdown
-Here's our logo (hover to see the title text):
+这是我们的 logo (鼠标移到图片上方查看标题文本):
 
-Inline-style:
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+行内式:
+![图片不能显示时的替换文本](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo 标题文本 1")
 
-Reference-style:
-![alt text][logo]
+参考式:
+![图片不能显示时的替换文本][logo]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo 标题文本 2"
 ```
 
-## Code and Syntax Highlighting
+## 代码语法高亮显示
 
-Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. *Markdown Here* supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
+代码块石 Markdown 规范的一部分， 但语法高亮却不是. 然而许多网站 -- 像 Github 和 *Markdown Here* 的渲染器 -- 都支持语法高亮显示. 根据渲染器的不同, 支持的语言以及语言的书写方式可能都会有所不同. *Markdown Here* 支持数十种语言的高亮显示 (不仅仅是编程语言, 还有 diffs 和 HTTP headers); 查看详细的支持的编程语言列表以及如何书写他们名字, 参考这里 [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
 
 ```markdown
 Inline `code` has `back-ticks around` it.
 ```
 
-Blocks of code are either fenced by lines with three back-ticks <code>```</code>, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
+代码块前后各被三个反勾号 （<code>```</code>） 包围着, 或者缩进4个空格. 我推荐使用前者 -- 这种方式书写更容易并且只有这种方式才支持语法高亮.
 
 <pre lang="no-highlight"><code>```javascript
-var s = "JavaScript syntax highlighting";
+var s = "JavaScript 语法高亮";
 alert(s);
 ```
 
 ```python
-s = "Python syntax highlighting"
+s = "Python 语法高亮"
 print s
 ```
 
 ```
-No language indicated, so no syntax highlighting.
-But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
+没有声明语言, 所以没有语法高亮.
+但是我们可以添加一个 &lt;b&gt;加黑标签&lt;/b&gt;.
 ```
 </code></pre>
 
 ## 表格
 
-Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
+表格也不是 Markdown 规范的核心部分, 但却是 GFM 的一部分, 并且 *Markdown Here* 也支持表格. 向你的电子邮件添加表格有很容易的方法 -- a task that would otherwise require copy-pasting from another application.
 
 ```markdown
-Colons can be used to align columns.
+冒号用于调整列.
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
+| 第三列         | 右对齐         | $1600 |
+| 第二列         | 居中      	 |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
+外面的竖线 (|) 是可选的, 你没必要向上面那样整齐地排列. 你也可以使用下面的方式:
 
 Markdown | Less | Pretty
 --- | --- | ---
@@ -168,20 +168,20 @@ Markdown | Less | Pretty
 1 | 2 | 3
 ```
 
-## 代码块
+## 引用
 
 ```markdown
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
+> 回复电子邮件时使用引用很方便.
+> 这一行处于同一个引用.
 
-Quote break.
+结束引用.
 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
+> 这行非常长但仍然被一个引用包着. 来来来来来来来来来来来来来来来来我们继续多写一点来确保这行足够长来确保能被引用完全包着. 对了, 你可以在引用内使用 **Markdown** 语法.
 ```
 
 ## 插入 HTML
 
-You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
+你也可以插入 HTML 代码, 它们大多能支持地很好.
 
 ```markdown
 <dl>
@@ -194,21 +194,20 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 ```
 
 
-## Horizontal Rule
+## 水平分割线
 
 ```markdown
-Three or more...
+三种或者更多种方式...
 
 ---
 
-Hyphens
+连字符
 
 ***
 
-Asterisks
+星号
 
 ___
 
-Underscores
+下划线
 ```
-
