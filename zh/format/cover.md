@@ -1,8 +1,8 @@
-# Cover
+# 封面
 
-To make your book more elegant on GitBook, you can specify a cover.
+用 GitBook 创建更优雅的书籍, 你可以为书籍制作一个封面.
 
-A cover is specified by a **cover.jpg** file, a **cover_small.jpg** can also exist as a smaller version of the cover. The cover should be a **JPEG** file.
+封面由 **cover.jpg** 指定, **cover_small.jpg** 也可以作为一个较小版本书籍的封面. 封面应该是 **JPEG** 格式的文件.
 
 ### Best Sizes
 
