@@ -9,7 +9,7 @@
    * [AsciiDoc](format/asciidoc.md)
    * [书籍封面](format/cover.md)
    * [多种语言](format/languages.md)
-   * [Glossary](format/glossary.md)
+   * [术语表](format/glossary.md)
    * [Templating](format/templating.md)
    * [Content References](format/conrefs.md)
    * [Ignoring files & folders](format/ignore.md)
