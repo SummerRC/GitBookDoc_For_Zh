@@ -4,24 +4,24 @@
 
 封面由 **cover.jpg** 指定, **cover_small.jpg** 也可以作为一个较小版本书籍的封面. 封面应该是 **JPEG** 格式的文件.
 
-### Best Sizes
+### 最合适的尺寸
 
-|                     |     Big     |       Small       |
+|                     |      大     |          小       |
 |:-------------------:|:-----------:|:-----------------:|
-|       **File**      | `cover.jpg` | `cover_small.jpg` |
-| **Size(in pixels)** |  1800x2360  |      200x262      |
+|      **文件名**      | `cover.jpg` | `cover_small.jpg` |
+|  **尺寸(单位:像素)**  |  1800x2360  |      200x262      |
 
-### Guidelines
+### 使用指南
 
-A good cover respects the following guidelines:
+一个好的封面最好遵循以下指南:
 
-* No border
-* Clearly visible book title
-* Any important text should be visible in the small version
+* 没有边界
+* 清晰可见的书名
+* 所有重要的文字在小尺寸封面上都应该清晰可见
 
 
-### Autocover
+### Autocover 插件
 
-A GitBook plugin (`autocover`) can also be used to generate a cover file for you, or just generate the `cover_small.jpg` from your big cover. This plugin is added by default on hosted books.
+GitBook 的插件 (`autocover`) 也可以用来自动生成一个封面, 或者仅仅根据大封面来生成小封面 `cover_small.jpg` . 这个插件被默认添加在书籍中.
 
-[Read more about autocover](https://github.com/GitbookIO/plugin-autocover).
+[阅读更多关于 autocover 的内容](https://github.com/GitbookIO/plugin-autocover).

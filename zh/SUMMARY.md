@@ -7,7 +7,7 @@
    * [章节](format/chapters.md)
    * [Markdown](format/markdown.md)
    * [AsciiDoc](format/asciidoc.md)
-   * [Cover](format/cover.md)
+   * [书籍封面](format/cover.md)
    * [Multi-Languages](format/languages.md)
    * [Glossary](format/glossary.md)
    * [Templating](format/templating.md)
