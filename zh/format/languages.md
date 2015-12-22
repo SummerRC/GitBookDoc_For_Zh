@@ -1,11 +1,12 @@
-# Multi-Languages
+# 多种语言
 
-GitBook supports building books written in multiple languages. Each language should be a sub-directory following the normal GitBook format, and a file named `LANGS.md` should be present at the root of the repository with the following format:
+GitBook 支持构建多种语言的书籍. 每种语言单独放在根目录的一个字目录下, 并且都应该遵循正常的 GitBook 的格式, 根目录下还应该又一个名为 `LANGS.md` 的文件, 文件内容的格式如下:
 
 ```
+* [中文](zh/)
 * [English](en/)
 * [French](fr/)
 * [Español](es/)
 ```
 
-You can see a complete example with the [Learn Git](https://github.com/GitbookIO/git) book.
+可以参考这本书籍 [Learn Git](https://github.com/GitbookIO/git) 

@@ -1,4 +1,4 @@
-# Summary
+# 目录
 
 * [简介](README.md)
 * [格式](format/README.md)
@@ -8,7 +8,7 @@
    * [Markdown](format/markdown.md)
    * [AsciiDoc](format/asciidoc.md)
    * [书籍封面](format/cover.md)
-   * [Multi-Languages](format/languages.md)
+   * [多种语言](format/languages.md)
    * [Glossary](format/glossary.md)
    * [Templating](format/templating.md)
    * [Content References](format/conrefs.md)
