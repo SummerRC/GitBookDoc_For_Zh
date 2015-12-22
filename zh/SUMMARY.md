@@ -10,7 +10,7 @@
    * [书籍封面](format/cover.md)
    * [多种语言](format/languages.md)
    * [术语表](format/glossary.md)
-   * [Templating](format/templating.md)
+   * [模板](format/templating.md)
    * [Content References](format/conrefs.md)
    * [Ignoring files & folders](format/ignore.md)
    * [Configuration](format/configuration.md)

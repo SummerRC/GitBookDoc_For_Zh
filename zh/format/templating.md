@@ -1,10 +1,10 @@
-# Templating
+# 模板
 
-This is an overview of the templating features available in GitBook. GitBook uses the [Nunjucks](https://mozilla.github.io/nunjucks/) and [Jinja2](http://jinja.pocoo.org/) syntax.
+这是 GitBook 可用的模板功能的预览. GitBook 使用 [Nunjucks](https://mozilla.github.io/nunjucks/) 和 [Jinja2](http://jinja.pocoo.org/) 两个模板引擎的语法.
 
-### Escaping
+### 转义
 
-If you want to output any of the special templating tags, you can use raw and anything inside of it will be output as plain text.
+如果你想输出一些特殊的模板标签, 你可以使用原生的并且任何转义包含的内容都会被当作纯文本输出.
 
 ```
 {% raw %}
@@ -12,11 +12,11 @@ If you want to output any of the special templating tags, you can use raw and an
 {% endraw %}
 ```
 
-### Variables
+### 变量
 
 A variable looks up a value from the book context.
 
-Variables are defined in the `book.json` file:
+变量被定义在 `book.json` 文件中:
 
 ```json
 {
@@ -27,7 +27,7 @@ Variables are defined in the `book.json` file:
 ```
 
 
-#### Display Variables
+#### 显示变量
 
 Variables specified in the `book.json` are accessible under the scope `book`:
 
