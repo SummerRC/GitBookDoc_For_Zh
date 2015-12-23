@@ -1,15 +1,15 @@
-# Ignoring files & folders
+# 忽略文件和文件夹
 
-GitBook will read the `.gitignore`, `.bookignore` and `.ignore` files to get a list of files and folders to skip.
+GitBook 读取 `.gitignore`, `.bookignore` 和 `.ignore` 文件来获得需要忽略的文件和文件夹列表.
 
-The format inside those files, follows the same convention as `.gitignore`:
+忽略文件的格式与 `.gitignore`文件相同:
 
 ```
-# This is a comment
+# 这里是注释
 
-# Ignore the file test.md
+# 忽略文件 test.md
 test.md
 
-# Ignore everything in the directory "bin"
+# 忽略 "bin" 目录下的所有文件
 bin/*
 ```
