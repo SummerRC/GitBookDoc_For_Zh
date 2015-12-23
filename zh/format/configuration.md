@@ -1,13 +1,13 @@
-# Configuration
+# 配置
 
-All configurations are stored as JSON in a file named `book.json`.
+所有的配置信息都以 JSON 的形式写在 `book.json` 文件中.
 
-You can paste your `book.json` at [jsonlint.com](http://jsonlint.com) to validate the JSON syntax.
+你可以将你 `book.json` 文件中的 JSON 粘贴到网站 [jsonlint.com](http://jsonlint.com) 来验证 JSON 的格式是否正确.
 
-All fields are optionals or default to some extracted values.
+所有的子段都是可选的或者存在默认值.
 
 
-## Fields
+## 字段
 
 #### gitbook
 
@@ -15,8 +15,7 @@ All fields are optionals or default to some extracted values.
 { "gitbook": "2.x.x" }
 ```
 
-This option is used to detect which version of GitBook will be use to generate the book.
-The format is a [SEMVER](http://semver.org) condition.
+此选项用于检测将使用哪个版本的 GitBook 来生成书.格式符合 [SEMVER](http://semver.org) 规范.
 
 #### title
 
@@ -24,9 +23,9 @@ The format is a [SEMVER](http://semver.org) condition.
 { "title": "My Awesome Book" }
 ```
 
-This option defines the title of your book, by default this value is extracted from the **README** (first title).
+这个选项定义你书籍的标题, 默认情况下该值从 **README** 读取(第一个标题)。
 
-On **gitbook.com**, this value is defined from the title entered on the platform.
+在网站 **gitbook.com**, this value is defined from the title entered on the platform.
 
 #### description
 
@@ -34,9 +33,9 @@ On **gitbook.com**, this value is defined from the title entered on the platform
 { "description": "This is such a great book!" }
 ```
 
-This option defines the description of your book, by default this value is extracted from the **README** (first paragraph).
+这个选项定义你书籍的描述信息, 默认情况下该值从 **README** 读取(第一段).
 
-On **gitbook.com**, this value is defined from the description entered on the platform.
+在网站 **gitbook.com**, this value is defined from the description entered on the platform.
 
 #### isbn
 
@@ -44,7 +43,7 @@ On **gitbook.com**, this value is defined from the description entered on the pl
 { "isbn": "978-3-16-148410-0" }
 ```
 
-This option defines the ISBN associated with your book 
+这个选项定义你书籍的 ISBN（国际标准书号).  
 
 #### language
 
@@ -52,11 +51,11 @@ This option defines the ISBN associated with your book
 { "language": "fr" }
 ```
 
-This option defines the language of your book, by default value is `en`.
+这个选项定义书籍的语言, 默认值是 `en`.
 
-This option is used for internationalization and localization, it changes the text from the website.
+此选项用于国际化和本地化, 它会改变网站的内容。
 
-On **gitbook.com**, this value is defined from the language detected in the content or specified in the settings.
+在网站 **gitbook.com**, this value is defined from the language detected in the content or specified in the settings.
 
 #### direction
 
