@@ -11,7 +11,7 @@
    * [多种语言](format/languages.md)
    * [术语表](format/glossary.md)
    * [模板](format/templating.md)
-   * [Content References](format/conrefs.md)
+   * [内容的引用](format/conrefs.md)
    * [忽略文件和文件夹](format/ignore.md)
    * [配置](format/configuration.md)
    * [Plugins](format/plugins.md)

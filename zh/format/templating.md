@@ -14,7 +14,7 @@
 
 ### 变量
 
-A variable looks up a value from the book context.
+一个变量从书籍的上下文中查找变量值.
 
 变量被定义在 `book.json` 文件中:
 
@@ -29,39 +29,39 @@ A variable looks up a value from the book context.
 
 #### 显示变量
 
-Variables specified in the `book.json` are accessible under the scope `book`:
+定义在 `book.json` 的变量可以在整本书的范围内访问:
 
 ```
 {{ book.myVariable }}
 ```
 
-This looks up `myVariable` from the book variables and displays it. Variable names can have dots in them which lookup properties. You can also use the square bracket syntax.
+以上会从 `book.json` 查找变量并显示变量值. 查找属性的变量名可以存在 `.` . 你也可以使用方括号语法.
 
 ```
 {{ book.foo.bar }}
 {{ book["bar"] }}
 ```
 
-If a value is undefined, nothing is displayed. The following all output nothing if `foo` is undefined: `{{ foo }}`, `{{ foo.bar }}`, `{{ foo.bar.baz }}`.
+如果变量未定义, 那么什么都不会显示. 下面这些在 `foo` 未被定义的情况下不会产生任何输出: `{{ foo }}`, `{{ foo.bar }}`, `{{ foo.bar.baz }}`.
 
 
-#### Context variables
+#### 上下文变量
 
-Some variables are also available to get informations about the current file or the GitBook instance:
+通过一些变量可以获取一些关于当前文件或者书籍的信息:
 
 | Name | Description |
 | ---- | ----------- |
-| `file.path` | Path of the file relative to the book |
-| `file.mtime` |Last modified date of the file |
+| `file.path` | 文件的相对路径 |
+| `file.mtime` |文件的最后修改日期 |
 
 
-### Tags
+### 标签
 
-Tags are special blocks that perform operations on sections of the template.
+标签是在一些模版引擎上执行特殊操作的代码块.
 
 #### If
 
-**if** tests a condition and lets you selectively display content. It behaves exactly as a programming language's if behaves.
+**if** 标签测试一个条件让你可以有选择性地显示内容. 它起的作用跟在编程语言中一样.
 
 ````
 {% if variable %}
@@ -69,9 +69,9 @@ Tags are special blocks that perform operations on sections of the template.
 {% endif %}
 ```
 
-If `variable` is defined and evaluates to true, "It is true" will be displayed. Otherwise, nothing will be.
+如果变量 `variable` 被定义了并且值是true, 那么 "It is true" 将会被显示. 否则, 什么都不显示.
 
-You can specify alternate conditions with elif and else:
+你可以使用 `elif` 和 `else` 来定义交叉的条件语句:
 
 ```
 {% if hungry %}
@@ -85,9 +85,9 @@ You can specify alternate conditions with elif and else:
 
 #### for
 
-**for** iterates over arrays and dictionaries.
+**for** 标签会迭代数组和字典.
 
-Let's consider your variables in the `book.json`:
+让我们考虑在 `book.json` 文件中的变量:
 ```
 {
     "variables": {
@@ -108,8 +108,8 @@ Let's consider your variables in the `book.json`:
 {% endfor %}
 ```
 
-The above example lists all the authors using the `name` attribute of each item in the `authors` array as the display value.
+上面的例子会列出在 `authors` 数组中使用 `name` 属性的每一个条目并且显示它们的值.
 
 #### include
 
-Include is detailed in the [Content References](./conrefs.md) article.
+Include 标签详见 [内容的引用](./conrefs.md) 这篇文章.
