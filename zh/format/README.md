@@ -1,12 +1,12 @@
-# Format
+# 格式
 
-The format's main focus is simplicity and readability.
+GitBook 文档格式的主要特点是简单性和易读性.
 
-GitBook uses a convention on top of markup files:
+GitBook 有一些约定好功能的文件:
 
-* [**README**](./introduction.md): Introduction of the book
-* [**SUMMARY**](./chapters.md): Chapters Structure
-* [**LANGS**](./languages.md): Multi-Languages book
-* [**GLOSSARY**](./glossary.md): List of terms with descriptions
+* [**README**](./introduction.md): 书籍的简介
+* [**SUMMARY**](./chapters.md): 章节结构
+* [**LANGS**](./languages.md): 多语言书籍
+* [**GLOSSARY**](./glossary.md): 带描述的术语列表
 
-A book needs at least a `README` and a `SUMMARY`.
+一本书籍至少应包含一个 `README` 文件和一个 `SUMMARY` 文件.
