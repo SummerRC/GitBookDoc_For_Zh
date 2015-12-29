@@ -1,14 +1,14 @@
-# Plugins
+# 插件
 
-Plugins are the best way to extend GitBook functionalities (ebook and website). There exist plugins to do a lot of things: bring math formulas display support, track visits using Google Analytic, ...
+使用插件是扩展GitBook功能的最好的方法 (ebook 和 website). 这里存在一些可以做很多事情的插件: 显示支持数学公式, 使用谷歌分析等, ...
 
-### How to find plugins?
+### 如何查找插件?
 
-Plugins can be easily searched on [plugins.gitbook.com](http://plugins.gitbook.com).
+可以在这里搜索插件 [plugins.gitbook.com](http://plugins.gitbook.com).
 
-### How to install a plugin?
+### 如何安装一个插件?
 
-Once you find a plugin that you want to install, you need to add it to your `book.json`:
+一旦你找到一个你想要安装的插件, 你需要把它添加到你书籍的 `book.json` 文件中:
 
 ```
 {
@@ -16,9 +16,9 @@ Once you find a plugin that you want to install, you need to add it to your `boo
 }
 ```
 
-You can also specify a specific version using: `"myPlugin@0.3.1"`, this is usefull when you're using an outdated version of GitBook.
+你也可以指定一个特定的版本: `"myPlugin@0.3.1"`, 指定版本是有用的, 特别是当你使用一个GitBook的过时的版本时.
 
-If you're building your book locally, download and prepare plugins simply by running: `gitbook install`.
+如果你在本地构建你的书籍, 下载并准备插件只需简单地运行: `gitbook install`.
 
 
 

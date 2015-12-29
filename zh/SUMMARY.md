@@ -14,7 +14,7 @@
    * [内容引用](format/conrefs.md)
    * [忽略文件和文件夹](format/ignore.md)
    * [配置](format/configuration.md)
-   * [Plugins](format/plugins.md)
+   * [插件](format/plugins.md)
    * [Styling](styling/book.md)
    * [Math & TeX](format/math.md)
 * [Build](build/README.md)
