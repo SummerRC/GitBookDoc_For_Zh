@@ -25,7 +25,7 @@
 
 这个选项定义你书籍的标题, 默认情况下该值从 **README** 读取(第一个标题)。
 
-在网站 **gitbook.com**, this value is defined from the title entered on the platform.
+在网站 **gitbook.com**, 它的值为进入的平台的标题.
 
 #### description
 
@@ -35,7 +35,7 @@
 
 这个选项定义你书籍的描述信息, 默认情况下该值从 **README** 读取(第一段).
 
-在网站 **gitbook.com**, this value is defined from the description entered on the platform.
+在网站 **gitbook.com**, 它的值为进入的平台的描述信息.
 
 #### isbn
 
@@ -55,7 +55,7 @@
 
 此选项用于国际化和本地化, 它会改变网站的内容。
 
-在网站 **gitbook.com**, this value is defined from the language detected in the content or specified in the settings.
+在网站 **gitbook.com**, 这个值为内容中指定的语言或者配置中设置的语言.
 
 #### direction
 
@@ -68,9 +68,9 @@ It is recommended to set the `language` field to a language with the correct tex
 
 #### styles
 
-This option is used to add custom css to your book.
+这个选项用于向你的书籍中添加自定义css.
 
-Example:
+例如:
 
 ```js
 {
@@ -90,7 +90,7 @@ Example:
 { "plugins": ["mathjax"] }
 ```
 
-The list of plugins being used by a book is defined in the `book.json` configuration.
+一本书使用的插件列表定义在 `book.json` 文件中.
 
 #### pluginsConfig
 
@@ -105,13 +105,13 @@ The list of plugins being used by a book is defined in the `book.json` configura
 }
 ```
 
-This option contains all plugins specific configurations.
+这个选项包含所有插件的具体配置.
 
 #### structure
 
-This option is used to override files paths used by GitBook.
+这个选项用于覆盖被 GitBook 使用了的文件的路径.
 
-For example if you want to use `INTRO.md` instead of `README.md`:
+比如你想用 `INTRO.md` 文件代替`README.md` 文件:
 
 ```js
 {
@@ -121,7 +121,7 @@ For example if you want to use `INTRO.md` instead of `README.md`:
 }
 ```
 
-Structure types are `readme`, `langs`, `summary` and `glossary`.
+这些结构类型的文件是 `readme`, `langs`, `summary` 和 `glossary`.
 
 #### variables
 
@@ -133,11 +133,11 @@ Structure types are `readme`, `langs`, `summary` and `glossary`.
 }
 ```
 
-This option defines the variables values being used in [templating](./templating.md).
+这个选项定义将会在 [templating](./templating.md) 使用的变量的值.
 
 #### pdf
 
-PDF specific options allow customization of header, footer, etc
+PDF选项允许定制特定的页眉、页脚、等
 
 ```js
 {
