@@ -15,7 +15,7 @@
    * [忽略文件和文件夹](format/ignore.md)
    * [配置](format/configuration.md)
    * [插件](format/plugins.md)
-   * [Styling](styling/book.md)
+   * [样式](styling/book.md)
    * [Math & TeX](format/math.md)
 * [Build](build/README.md)
    * [Update with GIT](build/push.md)
