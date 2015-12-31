@@ -1,6 +1,6 @@
-# Common Errors
+# 常见错误
 
-Here is a list of common build errors and their associated fixes.
+这里列出了一些常见的构建错误和相关的解决方法.
 
 ---------
 
@@ -8,10 +8,10 @@ Here is a list of common build errors and their associated fixes.
 Error loading plugins: plugin1, ...
 ```
 
-This error happens because GitBook can't resolve a plugin (or the plugin is invalid).
-External plugins need to be installed using `gitbook install`.
+发生这个错误是因为 GitBook 不能识别一个插件 (或者插件是无效的).
+扩展的插件需要提前用 `gitbook install` 安装.
 
-It's also possible that some plugins can't be loaded because they need another version of GitBook. In this case, you need to find the correct version of your plugin that support the GitBook version you are using and define it in your `book.json`:
+一些插件不能被加载的原因也有可能是它需要其它版本的 GitBook. 如果是这种情况, 你可以找到支持你当前 GitBook 版本的正确版本的插件, 你可以这样在 `book.json` 定义:
 
 ```
 {
@@ -26,10 +26,10 @@ Need to install ebook-convert from Calibre
 ```
 
 
-To get around the error while trying to build your project as a PDF, ePub or mobi ebook, you must have the [Calibre](http://calibre-ebook.com) eBook reader/manager installed _AND_ the command-line tools installed.
+为了避免在你试图构建你的项目作为一个 PDF, ePub 或者手机域名的电子书时产生错误, 你必须安装 [Calibre](http://calibre-ebook.com) 电子书阅读器/管理器 _并且_ 安装命令行工具.
 
-To install the Calibre command-line tools from the Mac version, from the menu select: **calibre - Preferences - Miscellaneous - Install command line tools**
+安装 Calibre Mac 版本的命令行工具, 从菜单中选择: **calibre - Preferences - Miscellaneous - Install command line tools**
 
-Once this is completed, your ebook builds will be successful.
+一旦你完成这些操作, 你的电子书就会构建成功.
 
 ---------

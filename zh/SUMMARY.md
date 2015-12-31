@@ -19,7 +19,7 @@
    * [Math & TeX](format/math.md)
 * [构建](build/README.md)
    * [用 GIT 更新](build/push.md)
-   * [Common Errors](build/errors.md)
+   * [常见错误](build/errors.md)
    * [ebook- ](build/ebookconvert.md)
 * [GitHub Integration](github/README.md)
    * [Transferring content to GitHub](github/transferring_to_github.md)
