@@ -1,10 +1,10 @@
 # Math & TeX
 
-GitBook supports math equations and TeX thanks to plugins. There are currently 2 official plugins to display math: [mathjax](https://github.com/GitbookIO/plugin-mathjax) and [katex](https://github.com/GitbookIO/plugin-katex).
+因为一些插件 GitBook 支持数学公式和 TeX . 当前有两个支持数学公式的官方插件: [mathjax](https://github.com/GitbookIO/plugin-mathjax) and [katex](https://github.com/GitbookIO/plugin-katex).
 
-#### Enable a math plugin:
+#### 使用数学插件:
 
-To enable math support, you need to add one of these plugins to your `book.json`:
+为了能够支持数学公式, 你需要添加一个插件到你书籍的 `book.json` 文件中:
 
 ```js
 {
@@ -12,24 +12,24 @@ To enable math support, you need to add one of these plugins to your `book.json`
 }
 ```
 
-#### Differences between MathJax and KaTeX
+#### MathJax 和 KaTeX 插件的区别
 
-The `mathjax` and `katex` plugins are different implementations of TeX equation rendering, backed by their respective Open Source libraries: [KaTeX](https://github.com/Khan/KaTeX) and [MathJax](https://www.mathjax.org).
+`mathjax` 和 `katex` 插件对 TeX 方程的展示用了不同的实现方式, 它们都有支持自己的开源代码库: [KaTeX](https://github.com/Khan/KaTeX) 和 [MathJax](https://www.mathjax.org).
 
-MathJax supports the entire TeX syntax, but the output is not perfect on ebooks (PDF, ePub and Mobi).
-KaTeX renders perfectly on all formats (web and ebooks), but doesn't yet support [all the syntax](https://github.com/Khan/KaTeX/wiki/Function-Support-in-KaTeX).
+MathJax 支持所有的 TeX 语法, 但是它在电子书(PDF, ePub and Mobi) 上的输出并不完美.
+KaTeX 在所有的格式(web and ebooks)上表现地都很完美, 但是并不是所有的语法都支持 [all the syntax](https://github.com/Khan/KaTeX/wiki/Function-Support-in-KaTeX).
 
 
-#### Add math to your content:
-
-```
-Here is some inline math: $$a \ne 0$$
-```
-
-A block of math should begin with a new line:
+#### 在内容中添加数学公式:
 
 ```
-Here is a block of math:
+这里是一些行内的数学公式: $$a \ne 0$$
+```
+
+数学块应该新起一行:
+
+```
+这里是数学块:
 
 $$
 a \ne 0
