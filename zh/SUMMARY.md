@@ -18,7 +18,7 @@
    * [样式](styling/book.md)
    * [Math & TeX](format/math.md)
 * [构建](build/README.md)
-   * [Update with GIT](build/push.md)
+   * [用 GIT 更新](build/push.md)
    * [Common Errors](build/errors.md)
    * [ebook- ](build/ebookconvert.md)
 * [GitHub Integration](github/README.md)
