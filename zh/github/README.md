@@ -15,7 +15,7 @@ GitBook 可以完美地集成 [GitHub](https://github.com) 并用后者托管你
 
 ## 从 GitHub 导入一本书籍
 
-When creating a new book, the `GitHub` tab let you choose one of your GitHub repository to import.
+当你创建一本新的书籍时, 通过 `GitHub` 选项卡你可以选择要导入的 GitHub 仓库.
 
 The newly created book will be setup with your repository's content, and a webhook will be automatically added.
 
