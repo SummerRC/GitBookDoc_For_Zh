@@ -22,7 +22,7 @@
    * [常见错误](build/errors.md)
    * [ebook-convert](build/ebookconvert.md)
 * [GitHub 集成](github/README.md)
-   * [Transferring content to GitHub](github/transferring_to_github.md)
+   * [迁移内容到 GitHub](github/transferring_to_github.md)
 * [Editor](editor/README.md)
    * [Draft Workflow](editor/draft.md)
    * [Chapters](editor/chapters.md)
