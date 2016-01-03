@@ -28,7 +28,7 @@
    * [章节](editor/chapters.md)
 * [搜索](platform/search.md)
 * [税](platform/taxes.md)
-* [Visibility](platform/visibility.md)
+* [可见性](platform/visibility.md)
 * [Custom Domains](platform/domains.md)
 * [Account](account/README.md)
    * [Duplicate](account/duplicate.md)

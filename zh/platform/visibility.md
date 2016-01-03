@@ -1,15 +1,15 @@
-# Visibility
+# 可见性
 
-#### Public/Private
+#### 公开/私有
 
-Your book can be **public** or **private**. Public books are visible to everybody but only collaborators can update it. Private books are visible only by the collaborators.
+你的书籍将会是 **public** 或者 **private**. 公开的书籍每个人都可见单只有作者可以编辑更新它. 私有书籍只对作者可见.
 
-You can switch your book from public to private and the inverse.
+你可以将你的书籍在公开和私有之间相互转换.
 
-#### Paid books
+#### 付费书籍
 
-Paid books can only be **public**.
+付费书籍只可以是 **public**.
 
-#### Home/Explore pages
+#### 主页/浏览页
 
-Home and Explore pages only list books that are already successfully built. It is advised to set a cover picture.
+主页和浏览页面只列出已构建成功的书籍. 建议为书籍设置封面.
