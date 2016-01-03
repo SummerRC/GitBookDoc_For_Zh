@@ -1,41 +1,41 @@
-# Taxes
+# 税
 
-Keep in mind the following is not specific tax advice. You should always report in accordance with applicable tax laws.
+请记住下面的内容并不是具体的税务建议. 你应该按照适用的税法报税.
 
-We do not withhold any taxes and authors are entirely responsible for their own tax obligations.
+我们不隐瞒任何税收并且作者要完全承担自己的纳税义务.
 
-We will send any required tax forms to US-based authors, but if you have additional questions on how to file or that are specific to your tax situation, we highly recommend consulting a tax professional in good standing with the IRS.
+我们将发送所需的税收形式给美国作家, 但是如果你有其他问题如何文件或特定于您的纳税情况, 我们强烈建议咨询在 IRS（美国国内税务局）有着良好信誉的税务专业人员.
 
-### What informations should I provide to GitBook?
+### 我应该提供什么信息给 GitBook?
 
-Fill out all the fields in [Payout settings](https://www.gitbook.com/settings/recipient).
+填写所有字段 [Payout settings](https://www.gitbook.com/settings/recipient).
 
-### What tax documents should I expect from GitBook?
+### 从 GitBook 的税收文件我能得到什么信息?
 
-This only applies to authors based in the United States.
+这仅适用美国的作者.
 
-It depends on several factors, but here's a quick breakdown:
-* Authors who sold at least 200 books and earn at least $20,000 in royalties earnings in the last year will receive a Form **1099-K**.
-* Authors who earn at least $600 in earnings from royalties in the last year will receive a Form **1099-MISC**.
-* Authors who do not meet either of the above criteria in the last year will not receive a tax form.
+这取决于多个因素, 这里有个快览:
+* 在上一年售出至少200本书并且从版税获得至少$20,000的作者将会收到一个 **1099-K** 税单.
+* 在上一年从版税收入至少600美元的作者将会收到一个 **1099-MISC** 税单.
+* 在上一年不符合上述标准的作者将不会收到税单.
 
-### How are the amounts on my 1099s calculated?
+### 1099s 的部分计算在内吗?
 
-We know this can get a bit confusing, so let's break it down by form:
-* **1099-K**: If you receive a 1099-K from us, the dollar amount you see in Box 1 consists of all earnings collected in the previous year (after we deduct our admin fee).
-* **1099-MISC**: If you receive a 1099-MISC, the dollar amount in Box 3 is all income from GitBook royalties.
+我们知道这会让人困惑, 所以我们将其按下面的形式拆分一下:
+* **1099-K**: 如果你从我们这里收到一个 1099-K 表单, 方框1中的金额包含你上一年所有的收入 (我们扣除了管理费用).
+* **1099-MISC**: 如果你从我们这里收到一个 1099-MISC 表单, 方框3中的金额时上一年所有的从 GitBook 的版税收入.
 
-Remember: It's possible you won't receive either of these forms, so check out the above criteria.
+记住:有可能你不会收到这两种形式的任何一种, 因此检查上面的标准.
 
-### When will I be receiving my 1099?
+### 我何时能收到我的1099?
 
-We send out 1099s via USPS by the end of January. You will also receive this form by email in January. (Note: If you don't receive a 1099, it means you didn't meet the above thresholds and therefore won't be receiving one.)
+我们在1月底通过 USPS 发送1099s. 你也会在1月份以电子邮件的形式收到此表格. (注意: 如果你没收到1099, 这意味着你没有满足上述条件, 因此不会收到.)
 
-### What if I didn't receive any 1099 forms?
+### 如果我没有收到任何 1099 表单怎么办?
 
-In some cases, you may not receive a form at all. There are situations where authors won't receive a form, depending on amount earned, payout methods used, and the tax information submitted. If you didn't but were expecting one, please [send us an email](https://www.gitbook.com/contact) and we'll get it sorted out.
+在某些情况下, 你可能没有收到表格. 有些情况下作者不会收到一个税表, 取决于收入, 支付方法, 提交的税务信息. 如果你没有收到税表但应该收到, 请[给我们发邮件件](https://www.gitbook.com/contact) 我们会解决这个问题.
 
-### Do I need GitBook's EIN for my tax return?
+### 我需要提供 GitBook 的 EIN 在税表上么?
 
-Since you are not an employee of GitBook, you are not required to provide GitBook's EIN (Employer Identification Number) on your tax return.
+因为你不是GitBook的员工, 所以不需要提供 GitBook 的 EIN(雇员身份号码) 在你的纳税申报表上.
 

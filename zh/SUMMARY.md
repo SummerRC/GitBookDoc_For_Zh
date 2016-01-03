@@ -27,7 +27,7 @@
    * [草稿工作流](editor/draft.md)
    * [章节](editor/chapters.md)
 * [搜索](platform/search.md)
-* [Taxes](platform/taxes.md)
+* [税](platform/taxes.md)
 * [Visibility](platform/visibility.md)
 * [Custom Domains](platform/domains.md)
 * [Account](account/README.md)
