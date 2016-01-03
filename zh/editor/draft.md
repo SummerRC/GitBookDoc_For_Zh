@@ -1,16 +1,16 @@
-### Draft Workflow
+### 草稿工作流 
 
-The GitBook Editor will trigger a new build each time you save a file (or when you edit the glossary or the summary).
+GitBook 的编辑器在你每次保存文件的时候（或者当你编辑术语表以及章节目录的时候）都会触发一次新的构建操作.
 
-But using the correct workflow, it's possible to work on a draft of your book then build it once it's finished.
+但是使用正确的工作流程, 就可以在草稿上工作然后在草稿完成之后再构建书籍.
 
-1. Create a new branch from the branches menu
-    1. Enter a name that describe your modification, for example: "firstdraft"
-    2. Select "master" as the origin branch
-2. Your active branch should now be the branch that you just created
-3. Edit your book like usual
-4. When your draft is finish, open the branches menu and click on "Merge Branches"
-5. Merge your draft branch into the master branch
-6. Delete your old draft branch
-7. Done!
+1. 从分支按钮创建一个新的分支
+    1. 输入一个名称来描述你的修改, 例如: "第一个草稿"
+    2. 选择 "master" 作为 origin branch
+2. 你现在工作的分支应该是你刚刚创建的分支
+3. 像往常一样编辑你的书籍
+4. 当你完成你的草稿, 打开分支按钮并点击 "Merge Branches"
+5. 合并你的草稿分支到主分支
+6. 删除你老的草稿分支
+7. 完成!
 
