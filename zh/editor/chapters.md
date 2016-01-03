@@ -1,5 +1,4 @@
-# Chapters
+# 章节
 
-You can add chapters from the editor simply by **right clicking** on a chapter
- and selecting `Add section`. Chapter and subchapters can be reorganized by dragging and dropping.
+你可以通过从编辑器 **右键** 一个章节然后选择 `Add section` 来添加章节. 章节和子章节可以通过拖拽分组.
  

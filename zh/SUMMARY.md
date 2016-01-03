@@ -25,7 +25,7 @@
    * [迁移内容到 GitHub](github/transferring_to_github.md)
 * [编辑器](editor/README.md)
    * [草稿工作流](editor/draft.md)
-   * [Chapters](editor/chapters.md)
+   * [章节](editor/chapters.md)
 * [Search](platform/search.md)
 * [Taxes](platform/taxes.md)
 * [Visibility](platform/visibility.md)
