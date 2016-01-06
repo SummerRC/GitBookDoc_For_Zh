@@ -30,7 +30,7 @@
 * [税](platform/taxes.md)
 * [可见性](platform/visibility.md)
 * [自定义域名](platform/domains.md)
-* [Account](account/README.md)
+* [账户](account/README.md)
    * [Duplicate](account/duplicate.md)
 * [Organizations](platform/organizations/README.md)
    * [Differences with users](platform/organizations/differences.md)
