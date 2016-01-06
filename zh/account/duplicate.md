@@ -1,14 +1,14 @@
 # Duplicate Account
 
-It occurs that you registered with a Social Account (Facebook, Twitter, GitHub or Google), then registered again using the form.
+当发生这样的情况:你先用社交账户(Facebook, Twitter, GitHub 或者 Google) 注册了一个账号, 然后又用其它形式注册了账号.
 
-In this case, you created two distinct accounts (one associated with your email, and another with your Social Account).
+在本例中, 你创建了两个不同的账户(一个与你的电子邮件相关联,另一个与你的社交账户相关联).
 
-You need to **remove** one of these account, to do so:
+你需要**删除**其中一个账户, 这样做:
 
-1. Logout from the account associated with your email
-2. Login back using the social account
-3. Delete this account at [www.gitbook.com/settings](https://www.gitbook.com/settings)
-4. Login back using your email
-5. Associate the Social Account to your email account at [www.gitbook.com/settings](https://www.gitbook.com/settings)
+1. 登出你用电子邮件注册的账号
+2. 登录你用社交账户注册的账号
+3. 去这里 [www.gitbook.com/settings](https://www.gitbook.com/settings) 删除这个账号
+4. 登毁你用电子邮件注册的账号
+5. 去这里 [www.gitbook.com/settings](https://www.gitbook.com/settings) 关联你的社交账号到你的电子邮件注册的帐户
 
