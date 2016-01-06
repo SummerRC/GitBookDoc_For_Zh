@@ -1,26 +1,26 @@
-# Custom Domains
+# 自定义域名
 
-All books on **Gitbook.com** are served under `http://{author}.gitbooks.io/{book}/`, the book's content is available at `http://{author}.gitbooks.io/{book}/content/`.
+在 **Gitbook.com** 上所有的书籍都以 `http://{author}.gitbooks.io/{book}/` 的形式, 书籍的内容都可以通过访问 `http://{author}.gitbooks.io/{book}/content/` 获得.
 
-But you can configure your book to use a custom domain name (a free feature on GitBook). Domain names can be used for your homepage or content (or both).
+但是你可以配置你的书籍来使用一个自定义的域名(GitBook 的免费功能). 域名可以用于你的个人主页或者内容(或者两者都使用).
 
-Adding a custom domain is easy.
+添加一个自定义域名很容易.
 
-### On GitBook.com
+### 在 GitBook.com 官网
 
-Go to your book's **Settings** tab and then click on **Domains**. Then simply enter your domain and save.
+在你书籍的 **Settings** 页面点击 **Domains**. 然后输入你的域名保存即可.
 
-![Add domain in settings](../assets/add_domain.png)
+![在设置页面添加域名](../assets/add_domain.png)
 
-### With your domain registrar
+### 域名注册商
 
-To finish the setup you will need to make a few changes with your domain registrar:
+完成上面操作之后你需要在域名注册商处做些操作:
 
-1. Login to your domain registrar and find the page that allows you to add/edit host records. That page is often found in your settings under `Edit DNS`, `Host Records` or `Zone File Control`.
+1. 登录到你的域名注册商,找到可以允许你添加/编辑主机记录的页面. 这个页面一般在你的设置页面 `编辑 DNS`, `主机记录` 或者 `Zone File Control`.
 
-2. Set the `www` record to a **CNAME** and set the URL field to: ```www.gitbooks.io```.
+2. 设置一条 **CNAME** 记录的 `www` 域名然后指向: ```www.gitbooks.io```.
 
-3. To **redirect** the naked domain (`yourdomain.com`) to `www.yourdomain.com`, you'll need to enable *"domain forwarding"*. This is often found under 'Forwarding', 'URL Forwarding' or 'URL Redirect'.
+3. 为了**重定向** 裸域名 (`yourdomain.com`) 到 `www.yourdomain.com`, 你需要开启 *"域名转发""*. 一般这个设置可以在这里找到: '转发', 'URL 转发' 或者 'URL 重定向'.
 
 
-That's all ! It might take a few hours for the DNS to propagate.
+完成 ! DNS 解析可能还需要几个小时.

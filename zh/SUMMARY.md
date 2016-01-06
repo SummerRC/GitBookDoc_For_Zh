@@ -29,7 +29,7 @@
 * [搜索](platform/search.md)
 * [税](platform/taxes.md)
 * [可见性](platform/visibility.md)
-* [Custom Domains](platform/domains.md)
+* [自定义域名](platform/domains.md)
 * [Account](account/README.md)
    * [Duplicate](account/duplicate.md)
 * [Organizations](platform/organizations/README.md)
