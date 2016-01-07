@@ -1,26 +1,26 @@
-# Converting a user into an organization
+# 将用户转变为一个组织
 
-If you need to give more granular permissions for accessing books in a personal account, you can convert the personal account to an organization.
+如果你在用户账号上需要给更具体的权限访问书籍, 那么你可以将用户账户转换为一个组织.
 
-**Warning**: Before converting a user into an organization, keep these points in mind:
+**注意**: 在将用户账号转变成组织之前, 请牢记这几点:
 
-* You will no longer be able to sign into the converted user account.
-* An organization cannot be converted back to a user.
+* 你将在不能登录转换后的用户账户.
+* 组织不能再转变回个人用户.
 
 
-#### 1. Create a personal account
+#### 1. 创建一个个人账号
 
-You cannot access books that belong to an organization unless you are one of its members. As a result, you'll need to create a second user account that will let you access the organization after you convert.
+你不能访问组织的书籍除非你是组织的一员. 结果是, 你需要创建另一个账号用于在你将之前的账号转变成组织之后访问组织.
 
-#### 2. Leave any organizations you're already a member of
+#### 2. 离开任何你参加的组织
 
-If the user you're converting is already a member of other organizations, you must first leave the other organizations.
+如果你要转换的用户已经是其他组织的一员, 那么首先你必须离开这些组织.
 
-#### 3. Convert the account into an organization
+#### 3. 将账号转变车组织
 
-* Open your [account settings](https://www.gitbook.com/settings).
-* Under "Transform account", enter the username of your new personnal account (see section 1.), click `Turn into an organization`.
+* 打开你的 [账号设置](https://www.gitbook.com/settings).
+* 在 "Transform account", 输入你的新个人帐户的用户名(请参阅第1部分), 点击 `Turn into an organization`.
 
-#### 4. Sign in to the organization
+#### 4. 登录组织
 
-If you added your secondary personal account as the new owner in the last step of the conversion process, sign in to that account, and in the account context switcher, you'll be able to access your new organization!
+如果你在转换过程的最后一步添加你的辅助个人账号作为新拥有者, 登录这个账户, 在账号上写文切换之后, 你就能访问组织了!
