@@ -35,6 +35,6 @@
 * [组织](platform/organizations/README.md)
    * [与用户的不同](platform/organizations/differences.md)
    * [转变用户成组织](platform/organizations/convert.md)
-   * [Transferring ownership](platform/organizations/ownership.md)
+   * [转让所有权](platform/organizations/ownership.md)
 * [Webhooks](platform/hooks.md)
 

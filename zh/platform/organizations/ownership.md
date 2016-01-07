@@ -1,13 +1,13 @@
-# Transferring organization ownership
+# 转让组织的所有权
 
-To make someone else the owner of an organization account, you must add a new owner, ensure that the billing information is updated, and then remove yourself from the account.
+让其他人成为组织的所有者, 你必须添加一个新的所有者, 确保付款信息是更新的, 然后将你从组织账户中移除.
 
-> Removing yourself from the organization does not update the billing information on file for the organization account. The new owner must update the billing information on file to remove your credit card or PayPal information.
+> 将你从组织中移除并不会更新组织账户文件的账单信息. 新的所有者必须更新文件的账单一处你的信用卡或者 PayPal 信息.
 
-1. If you're the only member of the Owners team, add another organization member to the team.
+1. 如果你是组织所有者团队的唯一成员, 向团队添加组织的另一个成员.
 
-2. Contact the new owner and make sure he or she is able to access the organization's settings.
+2. 联系组织新的所有者确保他/她可以使用组织的设置功能.
 
-3. If you are currently responsible for paying for GitBook in your organization, you'll also need to change the organization's billing information to reflect the new owner.
+3. 如果你目前在你们的组织中负责向 GitBook 支付费用, 你也需要更改组织的账单信息来显示新的所有者.
 
-4. Remove yourself from the organization.
+4. 将你自己从组织中移除.
