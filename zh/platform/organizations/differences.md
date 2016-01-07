@@ -1,20 +1,19 @@
-# What's the difference between user and organization accounts?
+# 用户和组织帐户有什么区别?
 
-Your user account is your identity on GitBook. Your user account can be a member of any number of organizations, regardless of whether the account is on a free or paid plan.
+你的用户帐户是 GitBook上 你的身份. 你的用户帐户可以是任意数量的组织的一员, 无论账户是免费或付费. 你的用户帐户是 GitBook上 你的身份. 
 
-#### Personal user accounts
+#### 个人用户帐户
 
-Every person who uses GitBook has their own user account. These accounts include:
+每个使用 GitBook 的人都有自己的用户帐户. 功能包括:
 
-* Unlimited public books and collaborators on all plans
-* Personal plans for private books and distribution
-Ability to add unlimited repository collaborators
+* 无限的公共书籍和作为合作者参与所有计划
+* 私有书籍的个人计划以及能够添加无限多的仓库合作者
 
-#### Organizations
+#### 组织
 
-Organizations are great for businesses and large projects that need multiple owners and admins. They include:
+组织对于商业项目以及需要多个拥有者和合作者的大型项目非常有用. 功能包括:
 
-* Business plans for private books and distribution
-* Collaborators-based access permissions
-* Unlimited administrators and collaborators using teams
-* Billing receipts that can be sent to a second email address
+* 私有书籍的商业计划以及贡献
+* 基于合作者的访问权限
+* 团队使用无限的管理员和合作者
+* 可以发送账单收据到另一个电子邮件的地址

@@ -1,15 +1,15 @@
-# Organizations
+# 组织
 
-You can create a new organization by either setting up a new organization or converting an existing personal account into an organization.
+你可以通过创建一个新的组织通过建立一个新的组织或者将现有的个人账户转换为一个组织.
 
-Organizations are great for businesses and large projects that need multiple owners and administrators. For more information on how organizations can help you collaborate on a project, see our [article on the difference between user accounts and organizations](./differences.md).
+组织对商业和需要多个所有者和管理者的大型项目是很有帮助的. 更多有关组织如何帮助你组织项目的信息, 参考 [个人账户和组织的不同之处](./differences.md).
 
-There are several ways to create an organization.
+这里有几种创建组织的方法.
 
-#### Create a new organization
+####  创建一个新的组织
 
-When you [create a new organization](https://www.gitbook.com/organizations/new) from scratch, it doesn't have any books associated with it. At any time, members of the organization with write permissions can add new books, or transfer existing books.
+当你从头开始 [创建一个新的组织](https://www.gitbook.com/organizations/new), 并没有任何与之关联的书籍. 在任何时候, 拥有写权限的组织成员可以添加新的书籍, 或者转让现有的书籍.
 
-#### Convert your existing personal account into an organization
+#### 将你现有的个人账户转换为一个组织
 
-If you want all of the repositories in your current account to be part of the organization, then you can [convert the account to an organization](./convert.md).
+如果你想要的所有仓库在当前帐户是组织的一部分, 那么你就可以 [将个人账号转换为组织](./convert.md).
