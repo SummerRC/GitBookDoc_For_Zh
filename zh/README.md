@@ -1,7 +1,7 @@
 GitBook 文档
 =============
 
-这本书包含整个 [GitBook](www.gitbook.com) 的文档(包括 [GitBook 官网](www.gitbook.com)以及 GitBook 支持的所有格式).
+这本书包含整个 **GitBook** 的文档(包括 [gitbook.com](https://www.gitbook.com)以及 GitBook 支持的所有格式).
 
 ### 开源文件格式
 
@@ -17,9 +17,9 @@ GitBook 是开源的，源码可以在这里查看: [GitHub](https://github.com/
 
 ### 其他文档
 
-GitBook 开发者文档（API和插件）可以在这里查看: [developer.gitbook.com](https://developer.gitbook.com).
+GitBook 开发者文档（API和插件）可以在这里查看: [https://developer.gitbook.com](https://developer.gitbook.com).
 
-企业版的安装和使用文档可以在这里查看: [help.enterprise.gitbook.com](http://help.enterprise.gitbook.com).
+企业版的安装和使用文档可以在这里查看: [help.enterprise.gitbook.com](https://help.enterprise.gitbook.com).
 
 ### 帮助和支持
 
