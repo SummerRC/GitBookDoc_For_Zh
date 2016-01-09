@@ -33,7 +33,7 @@
 * [账户](account/README.md)
    * [重复注册](account/duplicate.md)
 * [组织](platform/organizations/README.md)
-   * [与用户的不同](platform/organizations/differences.md)
+   * [组织与用户的不同](platform/organizations/differences.md)
    * [转变用户成组织](platform/organizations/convert.md)
    * [转让所有权](platform/organizations/ownership.md)
 * [Webhooks](platform/hooks.md)
