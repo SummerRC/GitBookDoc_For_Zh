@@ -4,7 +4,7 @@
 
 你可以将你 `book.json` 文件中的 JSON 粘贴到网站 [jsonlint.com](http://jsonlint.com) 来验证 JSON 的格式是否正确.
 
-所有的子段都是可选的或者存在默认值.
+所有的字段都是可选的或者存在默认值.
 
 
 ## 字段
@@ -15,7 +15,7 @@
 { "gitbook": "2.x.x" }
 ```
 
-此选项用于检测将使用哪个版本的 GitBook 来生成书.格式符合 [SEMVER](http://semver.org) 规范.
+此选项用于检测将使用哪个版本的 GitBook 来生成书. 格式符合 [SEMVER](http://semver.org) 规范.
 
 #### title
 
@@ -23,7 +23,7 @@
 { "title": "My Awesome Book" }
 ```
 
-这个选项定义你书籍的标题, 默认情况下该值从 **README** 读取(第一个标题)。
+这个选项定义你书籍的标题, 默认情况下该值从 **README** 读取(第一个标题).
 
 在网站 **gitbook.com**, 它的值为进入的平台的标题.
 
@@ -53,7 +53,7 @@
 
 这个选项定义书籍的语言, 默认值是 `en`.
 
-此选项用于国际化和本地化, 它会改变网站的内容。
+此选项用于国际化和本地化, 它会改变网站的内容.
 
 在网站 **gitbook.com**, 这个值为内容中指定的语言或者配置中设置的语言.
 
@@ -63,8 +63,8 @@
 { "direction": "rtl" }
 ```
 
-This option is used to override the text direction from the language.
-It is recommended to set the `language` field to a language with the correct text direction instead.
+这个属性将会设置语言的文本方向(译者注：比如内容从右往左流动).
+建议设置 `language` 字段属性设置为正确文本方向相反的属性.
 
 #### styles
 
@@ -137,7 +137,7 @@ It is recommended to set the `language` field to a language with the correct tex
 
 #### pdf
 
-PDF选项允许定制特定的页眉、页脚、等
+PDF选项允许定制特定的页眉、页脚等.
 
 ```js
 {

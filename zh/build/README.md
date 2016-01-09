@@ -7,7 +7,7 @@
 - **epub**: 它将会生成可下载的 epub 
 - **pdf**: 它将会生成可下载的 pdf 
 
-These builds are listed and detailed on the **History** tab of your book.
+这些构建任务详细地列在你书籍的 **History** 选项.
 
 ### 构建不触发
 
